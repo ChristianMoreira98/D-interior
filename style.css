@@ -97,10 +97,12 @@ border:  2px solid #fff;
 
 
 #section2{
-    padding: min(25vh, 20rem);
+    padding: min(35vh, 20rem);
  background-color: #fff;
+ background-image: url(imagens/SOFÁ.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 
 
@@ -109,18 +111,18 @@ border:  2px solid #fff;
 }
 
 
-.h3{font-size: 6rem;
+.h3{font-size: 3rem;
 
 }
 
 
 .p-3{
-font-size: 2rem;
+font-size: 1rem;
 }
 
 
 .button-2{
-    margin-top: 15px;
+    margin-top: 7px;
 }
 
 .button-2 button{
