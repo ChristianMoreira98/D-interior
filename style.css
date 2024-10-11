@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 
-*{ 
+* {
     padding: 0;
     margin: 0;
     font-family: "Bebas Neue", sans-serif;
@@ -10,49 +10,130 @@
     box-sizing: border-box;
 }
 
-html{
+html {
     width: 100%;
     height: 100vh;
 }
 
 
-header{
+header {
     padding: min(5vh, 19rem);
     background: black;
-color: #fff;
-display: flex;
-justify-content: space-between;
-align-items: center;
-position: sticky;
-top:0;
-left: 0;;
-width: 100%;
-z-index: 999;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    left: 0;
+    ;
+    width: 100%;
+    z-index: 999;
 }
 
 
-header h1{
-margin-left: 200px;
+header h1 {
+    margin-left: 200px;
 }
 
-header ul{
+header ul {
     margin-right: 200px;
 }
 
-a{
+a {
     color: #fff;
 }
 
-header ul{
+header ul {
     display: flex;
     gap: 20px;
     font-size: 1.5rem;
 }
 
+/*Estilização do menu mobile*/
 
-#section1{
+.mobile-menu {
+    /*Estilização da caixa Mobile quando aberta*/
+    display: none;
+    /*Display: Nenhum*/
+    position: fixed;
+    /*Posição fixa na parte direita da página*/
+    top: 0;
+    /*Superior em 0 fazendo a caixa encostar ao topo*/
+    right: 0;
+    /*Direita em 0 fazendo a caixa encostar a direita*/
+    width: 60%;
+    /*Largura em porcentagem da caixa*/
+    height: 100%;
+    /*Altura de 100% da tela*/
+    background-color: rgb(0, 0, 0);
+    /*Cor de fundo*/
+    flex-direction: column;
+    /*direção dos itens dentro da caixa */
+    align-items: center;
+    /*Alinhamento na vertical do itens*/
+    font-size: 1.8rem;
+    /*tamanho da letra dentro da caixa*/
+}
+
+
+.nav-links-mobile {
+    /*Lista não ordenada da versão mobile*/
+    display: flex;
+    /*Tornando os itens (LISTAS) flexíveis*/
+    flex-direction: column;
+    /*Estamos direcionando o posicionamento dessas listas*/
+    text-align: end;
+    /*Alinhando o texto ao centro*/
+    gap: 1.2rem;
+    /*Espaço entre as listas */
+    /* width: 0%; Zeramos a largura podendo retirar essa linha para testar visualizão */
+    list-style: none;
+    /*Estilo de lista desabilitado*/
+    /* padding: 0; Preenchimento zerado, podendo também ser retirado para testes */
+}
+
+.nav-links-mobile li {
+    /*listas da versão Mobile*/
+    border-bottom: 1px solid #787272;
+    /*Bordar inferior de cada lista*/
+    padding-bottom: 1.2rem;
+    /*Tamanho da borda*/
+}
+
+
+
+
+.hamburger,
+.close {
+    font-size: 24px;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    display: none;
+}
+
+
+.close {
+    margin-top: 20px;
+    margin-right: 20px;
+    display: block;
+    align-self: end;
+}
+
+
+.flex {
+    display: flex;
+}
+
+
+
+
+#section1 {
     padding: min(50vh, 40rem);
-    background: linear-gradient(180deg,rgba(101, 100, 100, 0.545) 8.3%,rgb(53, 53, 53) 100% ), url(imagens/tables-2181979_1280.jpg);;
+    background: linear-gradient(180deg, rgba(101, 100, 100, 0.545) 8.3%, rgb(53, 53, 53) 100%), url(imagens/tables-2181979_1280.jpg);
+    ;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -62,87 +143,88 @@ header ul{
 
 
 
-.h2{
+.h2 {
     font-size: 3rem;
 }
 
 
-.p{
-    font-size: 1.3rem;  
+.p {
+    font-size: 1.3rem;
 }
 
 
-.button{
-  width: 90px;
-  height: 20px;
-  margin-top: 15px;
+.button {
+    width: 90px;
+    height: 20px;
+    margin-top: 15px;
 }
 
-button{
+button {
     width: 200px;
-  height: 30px;
-border-radius: 5px;
-padding: 20px;
-font-size: 20px;
-display: flex;
-align-items: center;
-text-align: center;
-justify-content: center;
-background-color: black;
-color: #fff;
-border:  2px solid #fff;
+    height: 30px;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: black;
+    color: #fff;
+    border: 2px solid #fff;
 }
 
 
 
 
-#section2{
+#section2 {
     padding: min(35vh, 20rem);
- background-color: #fff;
- background-image: url(imagens/SOFÁ.jpg);
+    background-color: #fff;
+    background-image: url(imagens/SOFÁ.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
 
-.p-2{
+.p-2 {
     font-size: 2rem;
 }
 
 
-.h3{font-size: 3rem;
+.h3 {
+    font-size: 3rem;
 
 }
 
 
-.p-3{
-font-size: 1rem;
+.p-3 {
+    font-size: 1rem;
 }
 
 
-.button-2{
+.button-2 {
     margin-top: 7px;
 }
 
-.button-2 button{
+.button-2 button {
     width: 200px;
     height: 30px;
-  border-radius: 5px;
-  padding: 20px;
-  font-size: 20px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  justify-content: center;
-  background-color: #fff;
-  color: black;
-  border:  2px solid black;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: #fff;
+    color: black;
+    border: 2px solid black;
 }
 
-.img{
-margin-bottom: 900px;
-width: 800px;
+.img {
+    margin-bottom: 900px;
+    width: 800px;
 }
 
 
@@ -153,7 +235,7 @@ width: 800px;
 
 
 
-#section3{
+#section3 {
     background-color: black;
     padding: min(50vh, 40rem);
 }
@@ -175,7 +257,7 @@ width: 800px;
 
 
 
-#section4{
+#section4 {
     background-color: #fff;
     padding: min(50vh, 40rem);
 }
@@ -183,21 +265,83 @@ width: 800px;
 
 
 
-footer {   /**/
-    width: 100%;   /**/
-    padding: min(5vh, 2rem);   /**/
-    background-color: rgb(39, 39, 39);   /**/
-    justify-content: center;   /**/
-    align-items: center;   /**/
-    text-align: center;   /**/
-}    
-
-
-footer p {   /**/
-    color: #fff;   /**/
+footer {
+    /**/
+    width: 100%;
+    /**/
+    padding: min(5vh, 2rem);
+    /**/
+    background-color: rgb(39, 39, 39);
+    /**/
+    justify-content: center;
+    /**/
+    align-items: center;
+    /**/
+    text-align: center;
+    /**/
 }
 
 
-@media (max-width:830px)  {
+footer p {
+    /**/
+    color: #fff;
+    /**/
+}
 
+
+@media (max-width:834px)  {
+
+
+
+html {
+    font-size: 12px;
+}
+
+/* header img {
+    width: 10rem;
+    height: auto;
+    } */
+
+
+header img {
+    width: 4em;
+    height: auto;
+}
+
+.nav-links {
+    display: none;
+}
+
+.hamburger {
+    display: block;
+
+}
+
+.hamburger i{
+    color: #fff;
+}
+.mobile-menu {
+    z-index: 999;
+}
+
+/* #btn-header {
+    display: none;
+} */
+
+
+.cad-mobile button {
+    width: 14rem;
+    height: 4rem;
+    border-radius: 5px;
+    background-color: #f8f4f46c;
+    color: #000000;
+}
+
+
+
+.cad-mobile button a {
+    text-decoration: none;
+    color: white;
+
+}
 }

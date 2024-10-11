@@ -1,114 +1,164 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>D'interior</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="imagens/braco-de-cadeira.png" type="image/x-icon">
-</head>
-<body>
-    <header>
-<h1> D'interior
-</h1>
-  
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>D'interior</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" href="imagens/braco-de-cadeira.png"
+            type="image/x-icon">
+            <script src="https://kit.fontawesome.com/5729e0ff2e.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header>
+            <h1> D'interior
+            </h1>
 
+            <nav class="navbar">
 
-<ul>
-    <a href="">
-        <li>Home</li>
-    </a>
-    <a href="">
-        <li>About</li>
-    </a>
-    <a href="">
-        <li>Pages</li>
-    </a>
-    <a href="">
-        <li>Blog</li>
-    </a>
-    <a href="">
-        <li>Contact</li>
-    </a>
-</ul>
-    </header>
-    <main>
+                <ul class="nav-links">
+                    <a href>
+                        <li>Home</li>
+                    </a>
+                    <a href>
+                        <li>About</li>
+                    </a>
+                    <a href>
+                        <li>Pages</li>
+                    </a>
+                    <a href>
+                        <li>Blog</li>
+                    </a>
+                    <a href>
+                        <li>Contact</li>
+                    </a>
+                </ul>
 
-<section id="section1">
-    <div class="h2">
-        <h2>We design <br> for you space</h2>
-    </div>
-    
-    <div class="p">
-    <p>D’interior is an interior design company that transforms spaces into functional works of art. We offer personalization and a collaborative approach, creating unique projects that reflect each client's identity. We prioritize sustainability, innovation, and quality, ensuring complete satisfaction. If you seek comfort and style, D’interior is the right choice.
-    </p>
-    </div>
-    
-    <div class="button">
-        <button>
-            consult budget
-        </button>
-    </div>
-    
-</section>
+                <!-- Criamos nossa caixa (DIV) para guardar os elementos do Hamburguer quando estiver aberto -->
+                <div class="mobile-menu" id="mobileMenu">
 
-<section id="section2">
+                    <!-- Botão para ser utilizado para fechamento da lista -->
+                    <button id="closeButton" class="close">
+                        <i class="fas fa-times"></i>
+                    </button>
 
+                    <!-- Essa lista é do Menu Hamburguer quando estiver aberto. -->
+                    <ul class="nav-links-mobile">
+                        <li>
+                            <a href>TESTE</a>
+                        </li>
+                        <li>
+                            <a href>TESTE</a>
+                        </li>
+                        <li>
+                            <a href>TESTE</a>
+                        </li>
+                    </ul>
 
+                    <div id="btn-mobile" class="cad-mobile">
+                        <button>
+                            <a href="form.html" target="_blank">
 
+                                <!-- <img src="img/user.png" alt=""> -->
 
-            <div class="p-2">
-                <p>ABOUT US</p>
-            </div>
-            
-            <div  class="h3"><h3>WE MAKE COMFORT IN <br> YOUR HOME</h3></div>
-            
-            <div  class="p-3">
-                <p>At D’interior, we transform spaces into stories with personalized design that reflects <br> our clients' identities. Our team creates functional and sustainable environments,<br> prioritizing well-being. We aim to be leaders in interior design, exceeding expectations. <br>If you want to transform your space, we are here to help.
-                </p>
-            </div>
+                                <p>Cadastre-se</p>
+                            </a>
+                        </button>
+                    </div>
+                    <!-- Fim da caixa do Menu Hamburguer (Quando estiver aberto) -->
+                </div>
 
-            <div class="button-2">
-                <button>
-READ MORE
+                <!-- Botão de Hamburguer, ele está fora da Div justamente por ser um elemento singular -->
+                <button class="hamburger" id="hamburgerButton">
+                    <i class="fas fa-bars"></i>
                 </button>
 
-                 
+            </nav>
+
+        </header>
+
+        <main>
+
+            <section id="section1">
+                <div class="h2">
+                    <h2>We design <br> for you space</h2>
+                </div>
+
+                <div class="p">
+                    <p>D’interior is an interior design company that transforms
+                        spaces into functional works of art. We offer
+                        personalization and a collaborative approach, creating
+                        unique projects that reflect each client's identity. We
+                        prioritize sustainability, innovation, and quality,
+                        ensuring complete satisfaction. If you seek comfort and
+                        style, D’interior is the right choice.
+                    </p>
+                </div>
+
+                <div class="button">
+                    <button>
+                        consult budget
+                    </button>
+                </div>
+
+            </section>
+
+            <section id="section2">
+
+                <div class="p-2">
+                    <p>ABOUT US</p>
+                </div>
+
+                <div class="h3"><h3>WE MAKE COMFORT IN <br> YOUR HOME</h3></div>
+
+                <div class="p-3">
+                    <p>At D’interior, we transform spaces into stories with
+                        personalized design that reflects <br> our clients'
+                        identities. Our team creates functional and sustainable
+                        environments,<br> prioritizing well-being. We aim to be
+                        leaders in interior design, exceeding expectations. <br>If
+                        you want to transform your space, we are here to help.
+                    </p>
+                </div>
+
+                <div class="button-2">
+                    <button>
+                        READ MORE
+                    </button>
+
+                </div>
+
+            </section>
+
+            <section id="section3">
+
+            </section>
+
+            <section id="section4">
+
+            </section>
+        </main>
+
+        <footer>
+            <!--Rodapé da página-->
+            <p>Copyright 2024 © D'interior | All rights reserved.
+            </p>
+            <p> By Christian Moreira | Hosted by GitHUb
+
+            </p>
+        </footer>
+
+        <div vw class="enabled">
+            <div vw-access-button class="active"></div>
+            <div vw-plugin-wrapper>
+                <div class="vw-plugin-top-wrapper"></div>
             </div>
-
-</section>
-
-<section id="section3">
-
-
-</section>
-
-<section id="section4">
-
-</section>
-    </main>
-
-    <footer>
-        <!--Rodapé da página-->
-     <p>Copyright 2024 © D'interior | All rights reserved.
-    </p>
-     <p> By Christian Moreira | Hosted by GitHUb
-    
-     </p>
-    </footer>
-
-
-
-
- <div vw class="enabled">
-    <div vw-access-button class="active"></div>
-    <div vw-plugin-wrapper>
-      <div class="vw-plugin-top-wrapper"></div>
-    </div>
-  </div>
-  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
-  <script>
+        </div>
+        <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+        <script>
     new window.VLibras.Widget('https://vlibras.gov.br/app');
   </script>
-</body>
+    </body>
+
+    <script src="script.js"></script>
 </html>
