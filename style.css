@@ -26,7 +26,6 @@ header {
     position: sticky;
     top: 0;
     left: 0;
-    ;
     width: 100%;
     z-index: 999;
 }
@@ -52,6 +51,51 @@ header ul {
 
 /*Estilização do menu mobile*/
 
+.navbar {
+    color: white;
+    /*Cor da letra*/
+    display: flex;
+    /*Flexíveis*/
+    justify-content: space-between;
+    /*A distribuição dos itens sejam com Space-between*/
+    align-items: center;
+    /*Alinhamento da vertical*/
+    padding: 1rem 1.5rem;
+    /*Preenchimento superior/inferior e esquerda/direita*/
+    height: 2.6rem;
+    /*Altura do NavBar*/
+}
+
+.nav-links {
+    /*Aqui estamos estilizando a UL (lista não ordenada)*/
+    list-style: none;
+    /*Retirando o estilo de lista*/
+    display: flex;
+    /*Tornando a caixa flexível, e lado a lado*/
+    margin: 0;
+    /*Zerando os espaços de margem que são habilitados por padrão*/
+    padding: 0;
+    /*Zerando os preenchimentos que são habilitados por padrão*/
+}
+
+
+.nav-links li {
+    /*Estilizando nossa LI que está dentro da UL*/
+    padding: 0 8px;
+    /*Preenchimento da LI superior/inferior 0 e laterais em 9px*/
+}
+
+.nav-links a,
+.nav-links-mobile a {
+    /*Estamos chamando as duas âncoras para estilização, tanto da Versão Desktop quanto da versão Mobile.*/
+    color: white;
+    /*A cor da letra*/
+    text-decoration: none;
+    /*sem sublinhado*/
+}
+
+
+
 .mobile-menu {
     /*Estilização da caixa Mobile quando aberta*/
     display: none;
@@ -75,7 +119,6 @@ header ul {
     font-size: 1.8rem;
     /*tamanho da letra dentro da caixa*/
 }
-
 
 .nav-links-mobile {
     /*Lista não ordenada da versão mobile*/
@@ -128,8 +171,6 @@ header ul {
 }
 
 
-
-
 #section1 {
     padding: min(50vh, 40rem);
     background: linear-gradient(180deg, rgba(101, 100, 100, 0.545) 8.3%, rgb(53, 53, 53) 100%), url(imagens/tables-2181979_1280.jpg);
@@ -172,9 +213,15 @@ button {
     background-color: black;
     color: #fff;
     border: 2px solid #fff;
+    cursor: pointer;
 }
 
-
+button:hover{
+    background-color: #fff ;
+    color: black;
+    transition: 0.8s;
+    border: 2px solid black;
+}
 
 
 #section2 {
@@ -220,6 +267,14 @@ button {
     background-color: #fff;
     color: black;
     border: 2px solid black;
+    cursor: pointer;
+}
+
+.button-2 button:hover{
+    background-color: black;
+    color: #fff;
+    transition: 0.8s;
+    border: 2px solid #fff;
 }
 
 .img {
@@ -237,33 +292,97 @@ button {
 
 #section3 {
     background-color: black;
-    padding: min(50vh, 40rem);
+    padding: min(23vh, 23rem);
+    background-image: url(imagens/renderizacao-3d-de-fundo-geometrico-preto-e-branco-abstrato.jpg);
+background-position: center;
+background-size: cover;
+}
+
+
+h4{
+    color: #fff;
+    font-size: 3rem;
+    margin-bottom: 40px;
 }
 
 
 
+.content-section3{
+    color: #fff;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+
+}
+
+.child{
+    font-size: 1.5rem;
+}
 
 
 
+.child h5{
+    margin-bottom: 24px;
+}
 
-
-
-
-
-
-
-
-
-
+.p{
+    font-size: 14px;
+}
 
 
 #section4 {
     background-color: #fff;
     padding: min(50vh, 40rem);
+    display: flex;
 }
 
 
+.one-h6{
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
 
+
+.h6{
+font-size: 3rem;
+}
+
+
+.p-service{
+    margin-top: 20px;
+}
+
+
+#section4 button{
+    margin-top: 20px;
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: #fff;
+    color: black;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+
+#section4 button:hover{
+    background-color: black;
+    color: #fff;
+transition: 0.8s;
+border: 2px solid #fff;
+}
+
+
+.itens-awesome{
+    display: flex;
+    text-align: center;
+}
 
 footer {
     /**/
@@ -289,46 +408,36 @@ footer p {
 }
 
 
-@media (max-width:834px)  {
+
+
+@media (max-width: 700px) {}
 
 
 
-html {
-    font-size: 12px;
-}
+@media(max-width: 834px) {
 
-/* header img {
-    width: 10rem;
-    height: auto;
-    } */
-
-
-header img {
-    width: 4em;
-    height: auto;
-}
-
-.nav-links {
+   /* =====================================MOBILE===================================== */
+  .nav-links {
     display: none;
 }
-
-.hamburger {
+ 
+  .hamburger {
     display: block;
-
+   
 }
-
-.hamburger i{
-    color: #fff;
-}
+ 
 .mobile-menu {
     z-index: 999;
 }
+ 
+#btn-header {
+   display: none;
+}
+ 
 
-/* #btn-header {
-    display: none;
-} */
 
 
+ 
 .cad-mobile button {
     width: 14rem;
     height: 4rem;
@@ -336,12 +445,22 @@ header img {
     background-color: #f8f4f46c;
     color: #000000;
 }
-
-
-
+ 
+ 
+ 
 .cad-mobile button a {
     text-decoration: none;
     color: white;
+ 
+}
 
+
+
+
+
+
+
+#section1{
+padding: 6rem;
 }
 }

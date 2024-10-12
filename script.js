@@ -7,4 +7,4 @@ hamburgerButton.addEventListener("click", function() {
 //Criamos uma função que a ouvir o click do Mouse, ele REMOVA uma class, que está fazendo nossa caixa (Div) desaparecer, ou seja, ficar invisível.
 closeButton.addEventListener("click", function() {
     mobileMenu.classList.remove("flex");
-})
+});
