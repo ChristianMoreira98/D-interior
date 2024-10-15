@@ -1,120 +1,254 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>D'interior</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="" type="image/x-icon">
-</head>
-<body>
-    <header>
-<h1> D'interior
-</h1>
-  
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>D'interior</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" href="imagens/braco-de-cadeira.png"
+            type="image/x-icon">
+            <script src="https://kit.fontawesome.com/5729e0ff2e.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header>
+            <h1> D'interior
+            </h1>
 
+            <nav class="navbar">
 
-<ul>
-    <a href="">
-        <li>Home</li>
-    </a>
-    <a href="">
-        <li>About</li>
-    </a>
-    <a href="">
-        <li>Pages</li>
-    </a>
-    <a href="">
-        <li>Blog</li>
-    </a>
-    <a href="">
-        <li>Contact</li>
-    </a>
-</ul>
-    </header>
-    <main>
+                <ul class="nav-links">
+                    <a href>
+                        <li>Home</li>
+                    </a>
+                    <a href>
+                        <li>About</li>
+                    </a>
+                    <a href>
+                        <li>Pages</li>
+                    </a>
+                    <a href>
+                        <li>Blog</li>
+                    </a>
+                    <a href>
+                        <li>Contact</li>
+                    </a>
+                </ul>
 
-<section id="section1">
-    <div class="h2">
-        <h2>We design <br> for you space</h2>
-    </div>
-    
-    <div class="p">
-    <p>D’interior is an interior design company that transforms spaces into functional works of art. We offer personalization and a collaborative approach, creating unique projects that reflect each client's identity. We prioritize sustainability, innovation, and quality, ensuring complete satisfaction. If you seek comfort and style, D’interior is the right choice.
-    </p>
-    </div>
-    
-    <div class="button">
-        <button>
-            consult budget
+                <!-- Criamos nossa caixa (DIV) para guardar os elementos do Hamburguer quando estiver aberto -->
+      <!-- CAIXA MOBILE -->
+      <div class="mobile-menu" id="mobileMenu">
+ 
+        <!-- Botão para ser utilizado para fechamento da lista -->
+        <button id="closeButton" class="close">
+            <i class="fas fa-times"></i>
         </button>
+
+        <!-- Essa lista é do Menu Hamburguer quando estiver aberto. -->
+        <ul class="nav-links-mobile">
+            <li>
+                <a href="">HOME</a>
+            </li>
+            <li>
+                <a href="">ABOUT</a>
+            </li>
+            <li>
+                <a href="">PAGES</a>
+            </li>
+
+            <li>
+                <a href="">BLOG</a>
+            </li>
+
+            <li>
+                <a href="">CONTACT</a>
+            </li>
+        </ul>
+
+
+        <div id="btn-mobile" class="cad-mobile">
+          <button>
+            <a href="form.html" target="_blank">
+   
+              <!-- <img src="img/user.png" alt=""> -->
+   
+              <p>Cadastre-se</p>
+            </a>
+          </button>
+        </div>
+        <!-- Fim da caixa do Menu Hamburguer (Quando estiver aberto) -->
+    </div>
+
+    <!-- Botão de Hamburguer, ele está fora da Div justamente por ser um elemento singular -->
+  <button class="hamburger" id="hamburgerButton">
+      <i class="fas fa-bars"></i>
+  </button>
+
+  <!-- Fim do Menu de Navegação -->
+            </nav>
+
+
+        </header>
+
+        <main>
+
+            <section id="section1">
+                <div class="h2">
+                    <h2>We design <br> for you space</h2>
+                </div>
+
+                <div class="p">
+                    <p>D’interior is an interior design company that transforms
+                        spaces into functional works of art. We offer
+                        personalization and a collaborative approach, creating
+                        unique projects that reflect each client's identity. We
+                        prioritize sustainability, innovation, and quality,
+                        ensuring complete satisfaction. If you seek comfort and
+                        style, D’interior is the right choice.
+                    </p>
+                </div>
+
+                <div class="button">
+                    <button>
+                        consult budget
+                    </button>
+                </div>
+
+            </section>
+
+            <section id="section2">
+
+                <div class="p-2">
+                    <p>ABOUT US</p>
+                </div>
+
+                <div class="h3"><h3>WE MAKE COMFORT IN <br> YOUR HOME</h3></div>
+
+                <div class="p-3">
+                    <p>At D’interior, we transform spaces into stories with
+                        personalized design that reflects <br> our clients'
+                        identities. Our team creates functional and sustainable
+                        environments,<br> prioritizing well-being. We aim to be
+                        leaders in interior design, exceeding expectations. <br>If
+                        you want to transform your space, we are here to help.
+                    </p>
+                </div>
+
+                <div class="button-2">
+                    <button>
+                        READ MORE
+                    </button>
+
+                </div>
+
+            </section>
+
+            <section id="section3">
+
+                
+<h4>WHY US?</h4>
+
+<div class="content-section3">
+
+    <div class="child">
+        <h5>INDIVIDUAL APPROACH</h5>
+        <p class="p">At D'interior, we provide a personalized experience, crafting designs that reflect each client's unique personality and lifestyle.
+            
+            
+        </p>
     </div>
     
-</section>
-
-<section id="section2">
-
-
-
-
-            <div class="p-2">
-                <p>ABOUT US</p>
-            </div>
-            
-            <div  class="h3"><h3>WE MAKE COMFORT IN YOUR HOME</h3></div>
-            
-            <div  class="p-3">
-                <p>At D’interior, we transform spaces into stories with personalized design that reflects our clients' identities. Our team creates functional and sustainable environments, prioritizing well-being. We aim to be leaders in interior design, exceeding expectations. If you want to transform your space, we are here to help.
-                </p>
-            </div>
-
-            <div class="button-2">
-                <button>
-READ MORE
-                </button>
-
-                 
-            </div>
-
-
-            <div class="img">
-                <img src="imagens/couch-2656571_1280.png" alt="sofá icon">
-            </div>
+    <div class="child">
+        <h5>QUALITY OF WORK</h5>
+        <p class="p">We are dedicated to exceptional quality, using high-quality materials and skilled craftsmanship to exceed client expectations in every project.</p>
+    </div>
+    
+    <div class="child">
+        <h5>AUTONOMY</h5>
+        <p class="p">D'interior empowers clients to actively participate in the design process, ensuring their ideas are incorporated and the final result truly represents their vision.</p>
+    </div>
+    
+</div>
 
 
 </section>
 
-<section id="section3">
 
 
-</section>
 
 <section id="section4">
-
-</section>
-    </main>
-
-    <footer>
-        <!--Rodapé da página-->
-     <p>Copyright 2024 © Clear Space | Todos os Direitos Reservados.
-    </p>
-     <p> By Christian Moreira | Hospedado pelo GitHUb
     
-     </p>
-    </footer>
+    <div class="content-one">
 
+        <h6 class="one-h6">SERVICE</h6>
+        
+        
+        <h6 class="h6">WE OFFER A MODERN & <br>ELEGANT CONCEPT</h6>
+        
+        <p class="p-service">At D'interior, we offer a modern and elegant design concept that seamlessly blends sophistication with functionality. Our approach emphasizes clean lines, thoughtful layouts, and stylish finishes, creating spaces that are not only visually stunning but also practical for everyday living. We strive to create environments that inspire and elevate, ensuring that each project reflects contemporary trends while remaining timeless.</p>
 
-
-
- <div vw class="enabled">
-    <div vw-access-button class="active"></div>
-    <div vw-plugin-wrapper>
-      <div class="vw-plugin-top-wrapper"></div>
+        <button>
+            ALL SERVICE
+        </button>
     </div>
-  </div>
-  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
-  <script>
+        
+
+<div>
+<ul>
+    <li><i class="fa-solid fa-computer-mouse"> <span>OUR STORY</span></i></li>
+    <P>
+        d'interior was founded to transform spaces into beautiful, functional environments. With a vision for unique design, our talented team is committed to quality and client satisfaction. We focus on delivering exceptional experiences and staying ahead of trends, ensuring that every project tells a unique story.
+
+
+
+
+    </P>
+</ul>
+
+
+</div>
+
+
+
+
+    <div class="caixas-content">
+
+
+<div>
+
+</div>
+<div>
+
+</div>
+<div>
+
+</div>
+
+
+    </div>
+        
+    </section>
+</main>
+
+<footer>
+    <!--Rodapé da página-->
+    <p>Copyright 2024 © D'interior | All rights reserved.
+    </p>
+    <p> By Christian Moreira | Hosted by GitHUb
+
+            </p>
+        </footer>
+
+        <div vw class="enabled">
+            <div vw-access-button class="active"></div>
+            <div vw-plugin-wrapper>
+                <div class="vw-plugin-top-wrapper"></div>
+            </div>
+        </div>
+        <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+        <script>
     new window.VLibras.Widget('https://vlibras.gov.br/app');
   </script>
-</body>
+    </body>
+
+    <script src="script.js"></script>
 </html>
