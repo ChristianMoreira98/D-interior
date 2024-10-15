@@ -382,7 +382,33 @@ border: 2px solid #fff;
 .itens-awesome{
     display: flex;
     text-align: center;
+
 }
+
+
+.list-sec04 li{
+margin-bottom: 7px;
+
+}
+
+
+span{
+    font-weight: 800;
+}
+
+.margin-top{
+    margin-top: 10px;
+}
+
+
+.caixas-content{
+   
+}
+
+.caixas-content div{
+width: ;
+}
+
 
 footer {
     /**/
@@ -391,20 +417,41 @@ footer {
     padding: min(5vh, 2rem);
     /**/
     background-color: rgb(39, 39, 39);
-    /**/
-    justify-content: center;
-    /**/
-    align-items: center;
-    /**/
-    text-align: center;
-    /**/
+
 }
 
+.copyright-footer{
+text-align: center;
+font-size: 1.5rem;
+}
 
 footer p {
     /**/
     color: #fff;
     /**/
+}
+
+
+
+
+.list-foooter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.ul-footer{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 5px;
+    font-size: 2rem;
+}
+
+
+.ul-footer li{
+    color: #fff;
 }
 
 
