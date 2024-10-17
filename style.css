@@ -332,15 +332,14 @@ h4{
 
 #section4 {
     background-color: #fff;
-    padding: min(15vh, 30rem);
+    padding: min(50vh, 40rem);
     display: flex;
-align-items: center;
-gap: 60px;}
+}
 
 
 .one-h6{
-    font-size: 2rem;
-    margin-bottom: 7px;
+    font-size: 1rem;
+    margin-bottom: 10px;
 }
 
 
@@ -392,14 +391,8 @@ margin-bottom: 7px;
 }
 
 
-
-.list-sec04 i{
-    font-size: 1.6rem;
-}
-
 span{
     font-weight: 800;
-    font-size: 1.8rem;
 }
 
 .margin-top{
