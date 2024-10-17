@@ -216,8 +216,8 @@ button {
     cursor: pointer;
 }
 
-button:hover{
-    background-color: #fff ;
+button:hover {
+    background-color: #fff;
     color: black;
     transition: 0.8s;
     border: 2px solid black;
@@ -270,7 +270,7 @@ button:hover{
     cursor: pointer;
 }
 
-.button-2 button:hover{
+.button-2 button:hover {
     background-color: black;
     color: #fff;
     transition: 0.8s;
@@ -294,12 +294,12 @@ button:hover{
     background-color: black;
     padding: min(23vh, 23rem);
     background-image: url(imagens/renderizacao-3d-de-fundo-geometrico-preto-e-branco-abstrato.jpg);
-background-position: center;
-background-size: cover;
+    background-position: center;
+    background-size: cover;
 }
 
 
-h4{
+h4 {
     color: #fff;
     font-size: 3rem;
     margin-bottom: 40px;
@@ -307,7 +307,7 @@ h4{
 
 
 
-.content-section3{
+.content-section3 {
     color: #fff;
     display: flex;
     gap: 30px;
@@ -315,17 +315,17 @@ h4{
 
 }
 
-.child{
+.child {
     font-size: 1.5rem;
 }
 
 
 
-.child h5{
+.child h5 {
     margin-bottom: 24px;
 }
 
-.p{
+.p {
     font-size: 14px;
 }
 
@@ -334,27 +334,28 @@ h4{
     background-color: #fff;
     padding: min(15vh, 30rem);
     display: flex;
-align-items: center;
-gap: 60px;}
+    align-items: center;
+    gap: 60px;
+}
 
 
-.one-h6{
+.one-h6 {
     font-size: 2rem;
     margin-bottom: 7px;
 }
 
 
-.h6{
-font-size: 3.5rem;
+.h6 {
+    font-size: 3.5rem;
 }
 
 
-.p-service{
+.p-service {
     margin-top: 20px;
 }
 
 
-#section4 button{
+#section4 button {
     margin-top: 20px;
     width: 210px;
     height: 40px;
@@ -372,82 +373,83 @@ font-size: 3.5rem;
 }
 
 
-#section4 button:hover{
+#section4 button:hover {
     background-color: black;
     color: #fff;
-transition: 0.8s;
-border: 2px solid #fff;
+    transition: 0.8s;
+    border: 2px solid #fff;
 }
 
 
-.itens-awesome{
+.itens-awesome {
     display: flex;
     text-align: center;
 
 }
 
 
-.list-sec04 li{
-margin-bottom: 7px;
+.list-sec04 li {
+    margin-bottom: 7px;
 }
 
 
 
-.list-sec04 i{
+.list-sec04 i {
     font-size: 1.8rem;
 }
 
-span{
+span {
     font-weight: 800;
     font-size: 1.6rem;
 }
 
-.margin-top{
+.margin-top {
     margin-top: 10px;
 }
 
 
-#section5{
-    background-color:  #fff;;
+#section5 {
+    background-color: #fff;
+    ;
     padding: min(5vh, 5rem);
     display: flex;
-align-items: center;
-justify-content: center;
+    align-items: center;
+    justify-content: center;
 }
 
-.container-box{
-display: flex;
-align-items: flex-start;
-justify-content: center;
-gap: 30px;
-margin-bottom: 30px;
+.container-box {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 30px;
 }
 
-.container-box div{
-width: 300px;
-height: 400px; 
-background-color: #000000;
-}
-
-
-
-.child-1{
-background-image: url(imagens/real-estate-6893072_1280.jpg);
-background-position: center;
-background-size: cover;
+.container-box div {
+    width: 300px;
+    height: 400px;
+    background-color: #000000;
 }
 
 
-.child-2{
+
+.child-1 {
+    background-image: url(imagens/real-estate-6893072_1280.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+.child-2 {
     background-image: url(imagens/bathroom-1597027_1280.jpg);
     background-position: center;
     background-size: cover;
 }
 
-.child-3{
-   background-image:url(imagens/dining-area-9011242_1280.jpg) ; 
-   background-position: center;
-   background-size: cover;
+.child-3 {
+    background-image: url(imagens/dining-area-9011242_1280.jpg);
+    background-position: center;
+    background-size: cover;
 
 }
 
@@ -461,9 +463,9 @@ footer {
 
 }
 
-.copyright-footer{
-text-align: center;
-font-size: 1.5rem;
+.copyright-footer {
+    text-align: center;
+    font-size: 1.5rem;
 }
 
 footer p {
@@ -475,23 +477,23 @@ footer p {
 
 
 
-.list-foooter{
+.list-foooter {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 10px;
 }
 
-.ul-footer{
+.ul-footer {
     display: flex;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
     gap: 5px;
     font-size: 2rem;
 }
 
 
-.ul-footer li{
+.ul-footer li {
     color: #fff;
 }
 
@@ -504,51 +506,51 @@ footer p {
 
 @media(max-width: 834px) {
 
-   /* =====================================MOBILE===================================== */
-  .nav-links {
-    display: none;
-}
- 
-  .hamburger {
-    display: block;
-   
-}
- 
-.mobile-menu {
-    z-index: 999;
-}
- 
-#btn-header {
-   display: none;
-}
- 
+    /* =====================================MOBILE===================================== */
+    .nav-links {
+        display: none;
+    }
 
+    .hamburger {
+        display: block;
 
+    }
 
- 
-.cad-mobile button {
-    width: 14rem;
-    height: 4rem;
-    border-radius: 5px;
-    background-color: #f8f4f46c;
-    color: #000000;
-}
- 
- 
- 
-.cad-mobile button a {
-    text-decoration: none;
-    color: white;
- 
-}
+    .mobile-menu {
+        z-index: 999;
+    }
+
+    #btn-header {
+        display: none;
+    }
 
 
 
 
 
+    .cad-mobile button {
+        width: 14rem;
+        height: 4rem;
+        border-radius: 5px;
+        background-color: #f8f4f46c;
+        color: #000000;
+    }
 
 
-#section1{
-padding: 6rem;
-}
+
+    .cad-mobile button a {
+        text-decoration: none;
+        color: white;
+
+    }
+
+
+
+
+
+
+
+    #section1 {
+        padding: 6rem;
+    }
 }
