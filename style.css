@@ -332,19 +332,20 @@ h4{
 
 #section4 {
     background-color: #fff;
-    padding: min(50vh, 40rem);
+    padding: min(15vh, 30rem);
     display: flex;
-}
+align-items: center;
+gap: 60px;}
 
 
 .one-h6{
-    font-size: 1rem;
-    margin-bottom: 10px;
+    font-size: 2rem;
+    margin-bottom: 7px;
 }
 
 
 .h6{
-font-size: 3rem;
+font-size: 3.5rem;
 }
 
 
@@ -355,8 +356,8 @@ font-size: 3rem;
 
 #section4 button{
     margin-top: 20px;
-    width: 200px;
-    height: 30px;
+    width: 210px;
+    height: 40px;
     border-radius: 5px;
     padding: 20px;
     font-size: 20px;
@@ -388,12 +389,17 @@ border: 2px solid #fff;
 
 .list-sec04 li{
 margin-bottom: 7px;
-
 }
 
 
+
+.list-sec04 i{
+    font-size: 1.6rem;
+}
+
 span{
     font-weight: 800;
+    font-size: 1.8rem;
 }
 
 .margin-top{
@@ -401,14 +407,49 @@ span{
 }
 
 
-.caixas-content{
-   
+#section5{
+    background-color:  #fff;;
+    padding: min(5vh, 5rem);
+    display: flex;
+align-items: center;
+justify-content: center;
 }
 
-.caixas-content div{
-width: ;
+.container-box{
+display: flex;
+align-items: flex-start;
+justify-content: center;
+gap: 20px;
+margin-bottom: 30px;
 }
 
+.container-box div{
+width: 300px;
+height: 400px; 
+background-color: #000000;
+}
+
+
+
+.child-1{
+background-image: url(imagens/real-estate-6893072_1280.jpg);
+background-position: center;
+background-size: cover;
+}
+
+
+.child-2{
+    background-image: url(imagens/bathroom-1597027_1280.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.child-3{
+   background-image:url(imagens/dining-area-9011242_1280.jpg) ; 
+   background-position: center;
+   background-size: cover;
+
+}
 
 footer {
     /**/
