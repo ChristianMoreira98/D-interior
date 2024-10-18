@@ -92,6 +92,10 @@ header ul {
     /*A cor da letra*/
     text-decoration: none;
     /*sem sublinhado*/
+    text-align: center;
+    display: flex;
+    align-items: center
+    ;
 }
 
 
@@ -200,7 +204,7 @@ header ul {
     margin-top: 15px;
 }
 
-button {
+.button-section1{
     width: 200px;
     height: 30px;
     border-radius: 5px;
@@ -216,7 +220,7 @@ button {
     cursor: pointer;
 }
 
-button:hover {
+.button-section1:hover {
     background-color: #fff;
     color: black;
     transition: 0.8s;
@@ -488,7 +492,7 @@ footer p {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 5px;
+    gap: 4px;
     font-size: 2rem;
 }
 
@@ -500,20 +504,30 @@ footer p {
 
 
 
-@media (max-width: 700px) {}
 
 
 
-@media(max-width: 834px) {
+@media(max-width: 830px) {
 
-    /* =====================================MOBILE===================================== */
+    html {
+        font-size: 12px;
+    }
+
+    /* header img {
+        width: 10rem;
+        height: auto;
+        } */
+
+
+        
     .nav-links {
         display: none;
     }
 
     .hamburger {
         display: block;
-
+        display: flex;
+        align-items: center;
     }
 
     .mobile-menu {
@@ -521,11 +535,8 @@ footer p {
     }
 
     #btn-header {
-        display: none;
+       display: none;
     }
-
-
-
 
 
     .cad-mobile button {
@@ -544,13 +555,60 @@ footer p {
 
     }
 
-
-
-
-
-
-
-    #section1 {
+    #section1{
         padding: 6rem;
+        text-align: center;
     }
+
+    #section1 .button, .button-section1{
+        text-align: center;
+      
+    }
+
+
+    #section2{
+        padding: 8rem;
+        text-align: center;
+        background-image: url(imagens/chairs-2181951_1280.jpg);
+    }
+    #section2 .p-2{
+        color: #fff;
+font-weight: 800;
+    }
+
+    #section2 .h3{
+color: #fff;
+font-weight: 800;
+    }
+
+
+    #section2 .p-3{
+        color: black;
+        font-weight: 400;
+    }
+
+    
+    #section3{
+padding: 6rem;
+text-align: center;
+    }
+
+    #section3 .child h5{
+        margin-bottom: 12px;
+    }
+
+
+#section4{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
+
+
+#section5 .container-box{
+display: flex;
+flex-direction: column;
+}
+    
+}
+
