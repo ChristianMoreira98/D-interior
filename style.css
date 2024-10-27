@@ -92,10 +92,7 @@ header ul {
     /*A cor da letra*/
     text-decoration: none;
     /*sem sublinhado*/
-    text-align: center;
-    display: flex;
-    align-items: center
-    ;
+
 }
 
 
@@ -132,6 +129,7 @@ header ul {
     /*Estamos direcionando o posicionamento dessas listas*/
     text-align: end;
     /*Alinhando o texto ao centro*/
+    text-align: center;
     gap: 1.2rem;
     /*Espaço entre as listas */
     /* width: 0%; Zeramos a largura podendo retirar essa linha para testar visualizão */
@@ -147,9 +145,6 @@ header ul {
     padding-bottom: 1.2rem;
     /*Tamanho da borda*/
 }
-
-
-
 
 .hamburger,
 .close {
@@ -231,7 +226,7 @@ header ul {
 #section2 {
     padding: min(35vh, 20rem);
     background-color: #fff;
-    background-image: url(imagens/SOFÁ.jpg);
+    background-image: url(imagens/texture-2068283_1280.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -501,24 +496,12 @@ footer p {
     color: #fff;
 }
 
-
-
-
-
-
-
+/* RESPONSIVIDADE*/
 @media(max-width: 830px) {
 
     html {
         font-size: 12px;
     }
-
-    /* header img {
-        width: 10rem;
-        height: auto;
-        } */
-
-
         
     .nav-links {
         display: none;
@@ -538,7 +521,6 @@ footer p {
        display: none;
     }
 
-
     .cad-mobile button {
         width: 14rem;
         height: 4rem;
@@ -546,8 +528,6 @@ footer p {
         background-color: #f8f4f46c;
         color: #000000;
     }
-
-
 
     .cad-mobile button a {
         text-decoration: none;
@@ -560,30 +540,26 @@ footer p {
         text-align: center;
     }
 
-    #section1 .button, .button-section1{
+    #section1 .button{
         text-align: center;
-      
     }
 
 
     #section2{
         padding: 8rem;
         text-align: center;
-        background-image: url(imagens/chairs-2181951_1280.jpg);
     }
     #section2 .p-2{
-        color: #fff;
 font-weight: 800;
     }
 
     #section2 .h3{
-color: #fff;
 font-weight: 800;
     }
 
 
     #section2 .p-3{
-        color: black;
+
         font-weight: 400;
     }
 
