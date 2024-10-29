@@ -567,6 +567,14 @@ text-align: center;
     }
 
 
+    .content-one{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
 #section4{
     display: flex;
     justify-content: center;
