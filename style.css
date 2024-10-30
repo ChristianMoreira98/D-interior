@@ -46,7 +46,7 @@ a {
 header ul {
     display: flex;
     gap: 20px;
-    font-size: 1.5rem;
+    font-size: 3rem;
 }
 
 /*Estilização do menu mobile*/
