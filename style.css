@@ -136,7 +136,7 @@ header ul {
     list-style: none;
     /*Estilo de lista desabilitado*/
     /* padding: 0; Preenchimento zerado, podendo também ser retirado para testes */
-    margin-left: 4rem;
+    margin-left: 10rem;
 }
 
 .nav-links-mobile li {
