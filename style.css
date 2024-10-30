@@ -482,13 +482,16 @@ footer p {
 }
 
 /* RESPONSIVIDADE*/
-@media(max-width: 830px) {
+@media(max-width: 836px) {
 
-    html {
-        font-size: 12px;
+     html {
+        font-size: 1rem;
+        
     }
         
-
+p{
+font-size: 20px}
+    
     
     .nav-links {
         display: none;
