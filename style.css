@@ -2,51 +2,78 @@
 
 
 * {
+/* Asteristico para definir elementos fixos na página */
     padding: 0;
+/* Zerando o espaçamento */
     margin: 0;
+/* Zerando a margem */
     font-family: "Bebas Neue", sans-serif;
+/* Definindo uma fonte */
     list-style: none;
+/* Tirando o sub-linhado das listas */
     text-decoration: none;
+/* Tirando qualquer tipo de cor das listas */
     box-sizing: border-box;
+/*Para preencher as sessões indenpendente do tamanho, fazendo assim, com que elas não quebrem  */
 }
 
 html {
+/*Definindo o html (elemento raiz da página)*/
     width: 100%;
+/*width: 100% faz o elemento <html> ocupar toda a largura da tela.*/
     height: 100vh;
+/*height: 100vh faz o elemento <html> ocupar toda a altura da tela, independentemente de outros elementos na página.*/
 }
 
-
+/* Estilização do nosso cabeçalho */
 header {
     padding: min(5vh, 19rem);
+/* Tamanho */
     background: black;
+/* Cor de fundo */
     color: #fff;
+/*  Cor da letra */
     display: flex;
+/* Tornando Flex */
     justify-content: space-between;
+/* Justificando o conteúdo */
     align-items: center;
+/* Alinhando itens ao centro */
     position: sticky;
+/* Pra fixar o cabeçalho no site, o cabeçalho não se move ao rolar a página */
     top: 0;
+/* Zerando o topo */
     left: 0;
+/* Zerando a esquerda (que é aonde o elemento sai) */
     width: 100%;
+/* Para ocupar 100% da página */
     z-index: 999;
+/* Index 999 para deixar com prioridade */
 }
 
-
+/* Estilização do primeiro título */
 header h1 {
-    margin-left: 200px;
+    margin-left: 12.5rem;
+/* Espaçamento na esquerda */
 }
-
 header ul {
-    margin-right: 200px;
+    margin-right: 12.5rem;
+    /* Espaçamento na esquerda */
 }
 
 a {
     color: #fff;
+/* Cor do texto */
 }
 
+/* Estilização da UL */
 header ul {
     display: flex;
+/* Tornando o item flex */
     gap: 20px;
+/* Espaçamento entre os itens */
     font-size: 1.5rem;
+/* Tamanho do texto */
 }
 
 /*Estilização do menu mobile*/
@@ -150,75 +177,112 @@ header ul {
 .hamburger,
 .close {
     font-size: 24px;
+/* Tamanho do texto */
     background: none;
     border: none;
     color: white;
+/* Cor do texto */
     cursor: pointer;
+/*  Mudando o cursor */
     display: none;
+/* Escondendo um elemento */
 }
 
 
 .close {
     margin-top: 20px;
+/* Espaçamento no topo */
     margin-right: 20px;
+/* Espaçamento na esquerda */
     display: block;
     align-self: end;
 }
 
 
 .flex {
+/* Propriedade para ser chamada no JavaScript */
     display: flex;
+/* Tornando flex */
 }
 
-
+/* Estilização da primeira sessão */
 #section1 {
     padding: min(50vh, 40rem);
+/* Tamanho */
     background: linear-gradient(180deg, rgba(101, 100, 100, 0.545) 8.3%, rgb(53, 53, 53) 100%), url(imagens/tables-2181979_1280.jpg);
     ;
+/* Imagem de fundo com um degradê */
     background-repeat: no-repeat;
+/* Não repetir a imagem */
     background-position: center;
+/* Centralizando a imagem */
     background-size: cover;
+/* Fazendo com que a imagem ocupe o espaço todo */
     width: 100%;
+/* Para ocupar 100% da página */
     color: #fff;
+/* Cor do texto */
 }
 
 
 
 .h2 {
     font-size: 3rem;
+/* Tamanho do segundo título */
 }
 
 
 .p {
     font-size: 1.3rem;
+/* Tamanho dos parágrafos */
 }
 
 
 .button {
     margin-top: 15px;
+/* Espaçamento no topo do botão */
 }
 
+/* Estilização do botão */
 .button-section1{
     width: 200px;
+/* Largura do botão */
     height: 30px;
+/* Altura do botão */
     border-radius: 5px;
+/* Arredondamento do botão */
     padding: 20px;
+/* Espaçamento interno */
     font-size: 20px;
+/* Tamanho do texto */
     display: flex;
+/* Tornando flex */
     align-items: center;
+/* Alinhando item ao centro */
     text-align: center;
+/* Alinhando texto ao centro */
     justify-content: center;
+/* Justificando conteúdo */
     background-color: black;
+/* Cor de fundo */
     color: #fff;
+/* Cor do texto */
     border: 2px solid #fff;
+/* Definindo uma borda e uma cor para ela */
     cursor: pointer;
+/* Mudando o cursor */
 }
 
+/* Hover para mudar algo ao passar o mouse*/
 .button-section1:hover {
     background-color: #fff;
+/* Nova cor de fundo */
     color: black;
+/* Nova cor do texto */
     transition: 0.8s;
+/* Tempo de transição */
     border: 2px solid black;
+/* Nova cor da borda */
 }
 
 
@@ -482,15 +546,16 @@ footer p {
 }
 
 /* RESPONSIVIDADE*/
-@media(max-width: 832px) {
+@media(max-width: 834px) {
 
      html {
         font-size: 1rem;
     }
     
 p{
-font-size: 18px}
-    
+font-size: 1.3rem}
+
+
 
 header ul{
     font-size: 2.5rem;
@@ -572,7 +637,7 @@ text-align: center;
     }
 
     #section3 .child h5{
-        margin-bottom: 12px;
+        margin-bottom: 1rem;
     }
 
 
