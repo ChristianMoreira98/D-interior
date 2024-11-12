@@ -285,108 +285,165 @@ header ul {
 /* Nova cor da borda */
 }
 
-
+/* Estilização da sessão 2 */
 #section2 {
     padding: min(35vh, 20rem);
+/* Tamnanho da sessão */
     background-color: #fff;
+/* Cor de fundo */
     background-image: url(imagens/texture-2068283_1280.jpg);
+/* Imagem de fundo */
     background-repeat: no-repeat;
+/* Para a imagem não se repetir */
     background-size: cover;
+/* Para a imagem ocupar todo o espaço da sssão */
     background-position: center;
+/* Alinhando a imagem ao centro */
+        width: 100%;
+/* Para ocupar 100% da página */
+/*  */
 }
 
 
 .p-2 {
     font-size: 2rem;
+/* Tamanho do parágráfo */
 }
 
 
 .h3 {
     font-size: 3rem;
-
+/* Tamanho do terceiro título */
 }
 
 
 .p-3 {
     font-size: 1rem;
+/* Tamanho do parágrafo*/
 }
 
 
+/* Estilização do butão da segunda sessão */
 .button-2 {
     margin-top: 7px;
+/* Espaçamento no topo */
 }
 
 .button-2 button {
     width: 200px;
+/* Largura do botão */
     height: 30px;
+/* Altura do botão */
     border-radius: 5px;
+/* Arredondamento do botão */
     padding: 20px;
+/* Espaçamento interno */
     font-size: 20px;
+/* Tamanho do texto */
     display: flex;
+/* Tornando o botão flex */
     align-items: center;
+/* Alinhando o botão ao centro */
     text-align: center;
+/* Alinhando o texto ao centro */
     justify-content: center;
+/* Justificando o conteúdo ao centro */
     background-color: #fff;
+/* Cor de fundo do botão */
     color: black;
+/* Cor do texto */
     border: 2px solid black;
+/* Criando uma borda com cor */
     cursor: pointer;
+/* Mudando o cursor */
 }
 
+/* Hover para mudar algo ao passar o mouse*/
 .button-2 button:hover {
     background-color: black;
+    /* Nova cor de fundo */
     color: #fff;
+    /* Nova cor do texto */
     transition: 0.8s;
+    /* Tempo de transição */
     border: 2px solid #fff;
+    /* Nova cor da borda */
 }
 
 
-
+/* Estilização da sessão 3 */
 #section3 {
     background-color: black;
+    /* Cor de fundo */
     padding: min(23vh, 23rem);
+/* Tamanho da sessão */
     background-image: url(imagens/renderizacao-3d-de-fundo-geometrico-preto-e-branco-abstrato.jpg);
+    /* Imagem de fundo */
     background-position: center;
+    /* Alinhando a imagem ao centro */
     background-size: cover;
+    /* Para a imagem ocupar todo o espaço da sssão */
 }
 
 
+/* Estilização do quarto título */
 h4 {
     color: #fff;
+/* Cor do texto */
     font-size: 3rem;
+/* Tamanho do texto */
     margin-bottom: 40px;
+/* Espaçamento na parte de baixo do texto */
 }
 
 
-
+/* Estilização da div pau */
 .content-section3 {
     color: #fff;
+/* Cor do texto */
     display: flex;
+/* Tronando o item flex */
     gap: 30px;
+/* Espaçamento entre os itens */
     justify-content: center;
+/* Justificando o conteúdo ao centro */
 }
 
+
+/* Estilização da div filho */
 .child {
     font-size: 1.5rem;
+/*Tamanho do texto */
 }
 
+/* Quinto título */
 .child h5 {
     margin-bottom: 24px;
+/* Espaçamento na parte de baixo */
 }
 
 .p {
     font-size: 14px;
+/* Tamanho dos parágrafos */
 }
 
 
+
+/* Estilização da sessão 4 */
 #section4 {
     background-color: #fff;
+/*Cor de fundo */
     padding: min(15vh, 30rem);
+/* Tamanho da sessão */
     display: flex;
+/* Tornando o item flex */
     align-items: center;
+/* Alinhando item ao centro */
     gap: 60px;
+/* Espaçamento entre os itens */
 }
 
-
+/*  */
 .one-h6 {
     font-size: 2rem;
     margin-bottom: 7px;
